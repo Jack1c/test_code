@@ -84,11 +84,11 @@ def real_fn(X):
 plt.figure(1)
 
 
-f1, (fg1, fg2) = plt.subplots(1, 2, )
-
 # 绘制损失随着训练次数讲点的折线图, 已经预测值和正式值的散点图
 def plot(losses, X, sample_size=100):
     xs = list(range(len(losses)))
+    f1, (fg1, fg2) = plt.subplots(1, 2, )
+
     fg1.set_title('Loss during training')
     fg1.plot(xs, losses, '-r')
 
