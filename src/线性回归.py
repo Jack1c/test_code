@@ -1,7 +1,11 @@
+import matplotlib
 import mxnet.ndarray as nd
 import mxnet.autograd as autograd
 import matplotlib.pylab as plt
 import random
+
+
+matplotlib.use("Qt5Agg")
 
 # 生成数据
 
@@ -81,9 +85,6 @@ def real_fn(X):
     return 2 * X[:, 0] - 3.4 * X[:, 1] + 4.2
 
 
-plt.figure(1)
-
-
 # 绘制损失随着训练次数讲点的折线图, 已经预测值和正式值的散点图
 def plot(losses, X, sample_size=100):
     xs = list(range(len(losses)))
@@ -98,6 +99,7 @@ def plot(losses, X, sample_size=100):
     fg2.plot(X[:sample_size, 1].asnumpy(), real_fn(X[:sample_size, :]).asnumpy(), '*g', label='Real')
 
     fg2.legend()
+    plt.show()
 
 
 epochs = 5
@@ -132,6 +134,3 @@ for e in range(epochs):
             print("Epoch %s, batch %s. Moving avg of loss: %s. Average loss: %f" % (
                 e, niter, est_loss, total_loss / num_examples))
             plot(losses, X)
-
-
-plt.show()
