@@ -1,11 +1,7 @@
-import matplotlib
 import mxnet.ndarray as nd
 import mxnet.autograd as autograd
 import matplotlib.pylab as plt
 import random
-
-
-matplotlib.use("Qt5Agg")
 
 # 生成数据
 
