@@ -18,10 +18,10 @@ class Perceptron(object):
                 self._w[0:] += update
                 errors += int(update != 0.0)
             self.errors_.append(errors)
-            return self
+        return self
 
     def net_input(self, X):
-        return np.dot(X, self._w[:1]) + self._w[0]
+        return np.dot(X, self._w[1:]) + self._w[0]
 
     def predict(self, X):
         return np.where(self.net_input(X) >= .0, 1, -1)
