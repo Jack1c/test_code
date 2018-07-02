@@ -11,7 +11,6 @@
 Learn a model from labeled training data to make predictions about unseen of futer data.
 
 + Classification for predictions class lables(分类)
-
   predict(预测)the categorical(绝对的) class labels of new instances based on past observations.
 
 + Regression(回归)
