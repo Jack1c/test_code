@@ -11,10 +11,12 @@
 Learn a model from labeled training data to make predictions about unseen of futer data.
 
 + Classification for predictions class lables(分类)
+
   predict(预测)the categorical(绝对的) class labels of new instances based on past observations.
 
 + Regression(回归)
-prediction continuous outcomes(预测连续的输出值),which is also called regression analysis(回归分析)
+
+  prediction continuous outcomes(预测连续的输出值),which is also called regression analysis(回归分析)
 
 ###  Unsupervised  Learning(非监督学习)
 Deal with unlabeled data or data of unkonwn structure,
