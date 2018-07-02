@@ -42,6 +42,7 @@ for param in params:
 
 # 定义模型
 def net(X):
+    print(X)
     return nd.dot(X, w) + b
 
 

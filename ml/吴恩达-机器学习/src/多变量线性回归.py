@@ -1,7 +1,7 @@
 import numpy as np
 
 # 模拟数据
-n = 1000
+n = 5
 true_w = np.array([4.2, 2, -3.4])
 X = np.random.randint(1, 10, len(true_w) * n).reshape((n, len(true_w)))
 X.transpose()[0] = 1
@@ -10,7 +10,7 @@ y = np.empty(shape=(n))
 
 
 def net(X, w):
-    return np.dot(X, w.transpose())
+    return np.dot(X, w)
 
 
 for i, _x in enumerate(X):
@@ -19,9 +19,8 @@ for i, _x in enumerate(X):
 # 数据读取
 
 
-
 # 初始化参数
-epochs = 5000
+epochs = 50000
 learning_reate = 0.01
 w = np.zeros(len(true_w))
 

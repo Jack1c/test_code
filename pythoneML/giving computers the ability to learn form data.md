@@ -1,4 +1,11 @@
-##  The Three differen types of machine learning
+## topics:
++ The general concepts of machine learing 
++ The three of leaning bad basic terminology
++ The building blocks for successfully desiging machine learning systems
++ Installing and setting up Python for data analysis and machine learning
+
+
+##  The Three different types of machine learning
 
 ###  Supervised  Learning
 Learn a model from labeled training data to make predictions about unseen of futer data.
@@ -18,11 +25,11 @@ imformation withod the guidaces of a known outcome variable or reward(回报) fu
 ### Reinforcement Learning(强化学习
 Develop a system(agent) that improves(提高) its prerformance(性能) based on interactions(交互) with the environment.
 
-## A roadmap(路线图) for building machine learning systems
+## A roadmap (路线图) for building machine learning systems
 
 +  Preprocessing(预处理)(getting data into shape)
-+ Training and selection a predictive model
-+ Evaluating models and prediction unseen data instances
++  Training and selection a predictive model
++  Evaluating models and prediction unseen data instances
 
 
 
