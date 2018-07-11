@@ -20,6 +20,7 @@ Discussing the basics of optimization using adaptive linear neurons will then la
 + Using pandas, NumPy, and matplotlib to read in , process and visualize data  
 使用 pandas,NumPy 和 matplotlib 去读取,处理, 展示数据
 
+
 + Implementing linear classification algorithms in Python  
 使用Python实现线性分类算法
 
