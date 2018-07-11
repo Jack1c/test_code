@@ -37,7 +37,7 @@ Develop a system(agent) that improves(提高) its prerformance(性能) based on 
 +  Preprocessing(预处理)(getting data into shape)
 +  Training and selection a predictive model
 +  Evaluating models and prediction unseen data instances
-
+``
 ## Using Python for machine Learning
 
 
